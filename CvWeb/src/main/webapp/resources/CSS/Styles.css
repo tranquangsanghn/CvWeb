@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*----------------Thuộc tính chung của Login-------------------------*/
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/*---------------Thuộc tính riêng-------------------------------------*/
+/*---Body-login tổng của trang---*/
+#Body-login {
+	background-color: #E9EBEE;
+}
+/*---Form tổng---*/
+#Container-login-cover {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Container-login {
+	width: 50em;
+	height: 20em;
+	display: flex;
+}
+
+/*---Form con - bên trái---*/
+#Container-login-left {
+	width: 15em;
+	height: 20em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*---Chia Form con bên trái làm 2---*/
+.Container-login-left-item {
+	width: 15em;
+	height: 10em;
+	border-radius: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*----------Chỉnh ảnh ở 2 form con bên trái---------*/
+.Image-login {
+	width: 14em;
+	height: 9em;
+	border-radius: 20%;
+}
+
+/*---Form con - ở giữa---*/
+#Container-login-betwen {
+	width: 6em;
+	height: 20em;
+}
+/*--- Form con - bên phải---*/
+#Container-login-right {
+	width: 29em;
+	height: 20em;
+	background-color: white;
+	border-radius: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+/*--- Các thẻ trong form bên phải---*/
+ #div-01 {
+	width: 29em;
+	height: 7em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ #div-02 {
+	width: 29em;
+	height: 13em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.div-02-01 input, label{
+	width: 15em;
+}
+.div-02-02{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.Image-login-right{
+	width: 7em;
+	height: 4em;
+	border-radius: 20%;
+}
+
+
+
+
