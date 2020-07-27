@@ -28,7 +28,7 @@ public class Login {
 			Session session = sessionFactory.getCurrentSession();
 			List<User> list = session.createQuery(sql).getResultList();
 			for (User user : list) {
-				System.out.println(user.getUserName() + user.getPassword());
+				//System.out.println(user.getUserName() + user.getPassword());
 			}
 		} catch (JDBCConnectionException e) {
 			// TODO: handle exception
